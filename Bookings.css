@@ -1,0 +1,20 @@
+/* src/styles/Bookings.css */
+.bookings-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/career.jpg"); /* note the leading / */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bookings {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
