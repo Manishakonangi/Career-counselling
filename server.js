@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // ===================== MongoDB Connection =====================
-const MONGO_URI = "mongodb+srv://manisha_14:mani@cluster0.asr9ugt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = "mongodb+srv://<username>:<password>@cluster0.a889tyu.mongodb.net/?retryWrites=flase&w=majority&ppName=Cluster0";
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
@@ -153,3 +153,4 @@ app.post("/api/career-advice", upload.single("resume"), (req, res) => {
 // ===================== START SERVER =====================
 const PORT = 5000;
 app.listen(PORT, () => console.log(`✅ Backend running at http://localhost:${PORT}`));
+
