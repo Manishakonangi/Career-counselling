@@ -1,0 +1,99 @@
+/* CollegeResult.css */
+
+/* Container styling */
+.results-page {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Info section above table */
+.info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.info p {
+  margin: 5px 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Table styling */
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.results-table th,
+.results-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.results-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.results-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.results-table tr:hover {
+  background-color: #f1f7ff;
+}
+
+/* Back button */
+.back-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+/* No results page */
+.no-results {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 25px;
+  background-color: #fff5f5;
+  border: 1px solid #ffd6d6;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.no-results h2 {
+  color: #d9534f;
+  margin-bottom: 15px;
+}
+
+.no-results p {
+  color: #555;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,64 @@
+.welcome-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f4f8; /* Only for Welcome page */
+}
+
+/* Top navigation bar */
+.top-bar {
+  padding: 1rem 2rem;
+  text-align: right;
+  background: #0077cc;
+}
+
+/* Top links */
+.top-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Centered options */
+.center-options {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Buttons */
+.option-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.option {
+  background: #0077cc;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8; /* Soft light gray-blue background */
+}
+.footer {
+  background: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 12px;
+}
